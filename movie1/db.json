@@ -2,15 +2,163 @@
   "movies-popular": [
     {
       "id": 1,
-      "title": "Movie 1",
-      "poster": "url_to_poster_1",
-      "photo": "url_to_photo_1"
+      "title": "Parasite",
+      "description": "Parasite è un film del 2019 diretto da Bong Joon-ho. Il film racconta la storia di una famiglia povera che si infiltra nella vita di una famiglia ricca, con conseguenze imprevedibili.",
+      "image": "https://example.com/parasite.jpg",
+      "duration": "2h 12min",
+      "rating": 8.6
     },
     {
       "id": 2,
-      "title": "Movie 2",
-      "poster": "url_to_poster_2",
-      "photo": "url_to_photo_2"
+      "title": "Whiplash",
+      "description": "Whiplash è un film del 2014 diretto da Damien Chazelle. Il film segue la storia di un giovane batterista jazz e il suo spietato insegnante.",
+      "image": "https://example.com/whiplash.jpg",
+      "duration": "1h 47min",
+      "rating": 8.5
+    },
+    {
+      "id": 3,
+      "title": "Mad Max: Fury Road",
+      "description": "Mad Max: Fury Road è un film del 2015 diretto da George Miller. Ambientato in un futuro post-apocalittico, segue le avventure di Max e Furiosa in una fuga spettacolare.",
+      "image": "https://example.com/mad_max.jpg",
+      "duration": "2h",
+      "rating": 8.1
+    },
+    {
+      "id": 4,
+      "title": "La La Land",
+      "description": "La La Land è un film del 2016 diretto da Damien Chazelle. Una commedia musicale che racconta la storia d'amore tra un'aspirante attrice e un musicista jazz.",
+      "image": "https://example.com/la_la_land.jpg",
+      "duration": "2h 8min",
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "title": "Joker",
+      "description": "Joker è un film del 2019 diretto da Todd Phillips. Esplora la storia delle origini del celebre villain di Gotham City, interpretato da Joaquin Phoenix.",
+      "image": "https://example.com/joker.jpg",
+      "duration": "2h 2min",
+      "rating": 8.4
+    },
+    {
+      "id": 6,
+      "title": "1917",
+      "description": "1917 è un film del 2019 diretto da Sam Mendes. Ambientato durante la Prima Guerra Mondiale, segue due giovani soldati britannici in una missione per salvare un battaglione.",
+      "image": "https://example.com/1917.jpg",
+      "duration": "1h 59min",
+      "rating": 8.3
+    },
+    {
+      "id": 7,
+      "title": "Once Upon a Time in Hollywood",
+      "description": "C'era una volta a... Hollywood è un film del 2019 diretto da Quentin Tarantino. Il film segue un attore televisivo e il suo stuntman mentre navigano l'industria cinematografica degli anni '60.",
+      "image": "https://example.com/once_upon_a_time.jpg",
+      "duration": "2h 41min",
+      "rating": 7.6
+    },
+    {
+      "id": 8,
+      "title": "Blade Runner 2049",
+      "description": "Blade Runner 2049 è un film del 2017 diretto da Denis Villeneuve. Un sequel di Blade Runner che segue un nuovo blade runner alla scoperta di un segreto sepolto da tempo.",
+      "image": "https://example.com/blade_runner.jpg",
+      "duration": "2h 44min",
+      "rating": 8
+    },
+    {
+      "id": 9,
+      "title": "The Grand Budapest Hotel",
+      "description": "Grand Budapest Hotel è un film del 2014 diretto da Wes Anderson. Segue le avventure di un concierge e un giovane impiegato in un hotel di lusso durante la Repubblica di Weimar.",
+      "image": "https://example.com/grand_budapest.jpg",
+      "duration": "1h 39min",
+      "rating": 8.1
+    },
+    {
+      "id": 10,
+      "title": "Django Unchained",
+      "description": "Django Unchained è un film del 2012 diretto da Quentin Tarantino. Un western che racconta la storia di uno schiavo liberato e un cacciatore di taglie che cercano di salvare la moglie del primo.",
+      "image": "https://example.com/django.jpg",
+      "duration": "2h 45min",
+      "rating": 8.4
+    },
+    {
+      "id": 11,
+      "title": "Her",
+      "description": "Her è un film del 2013 diretto da Spike Jonze. La storia di un uomo che sviluppa una relazione romantica con un'intelligenza artificiale.",
+      "image": "https://example.com/her.jpg",
+      "duration": "2h 6min",
+      "rating": 8
+    },
+    {
+      "id": 12,
+      "title": "Gravity",
+      "description": "Gravity è un film del 2013 diretto da Alfonso Cuarón. Racconta la lotta per la sopravvivenza di due astronauti dopo un incidente che li lascia alla deriva nello spazio.",
+      "image": "https://example.com/gravity.jpg",
+      "duration": "1h 31min",
+      "rating": 7.7
+    },
+    {
+      "id": 13,
+      "title": "Inglourious Basterds",
+      "description": "Bastardi senza gloria (Inglourious Basterds) è un film del 2009 diretto da Quentin Tarantino. Il film è ambientato durante la seconda guerra mondiale e racconta una storia di vendetta contro i nazisti.",
+      "image": "https://example.com/inglourious_basterds.jpg",
+      "duration": "2h 33min",
+      "rating": 8.3
+    },
+    {
+      "id": 14,
+      "title": "The Revenant",
+      "description": "Revenant - Redivivo (The Revenant) è un film del 2015 diretto da Alejandro G. Iñárritu. Racconta la storia di un cacciatore di pelli che cerca vendetta contro coloro che lo hanno abbandonato dopo un attacco di un orso.",
+      "image": "https://example.com/revenant.jpg",
+      "duration": "2h 36min",
+      "rating": 8
+    },
+    {
+      "id": 15,
+      "title": "The Social Network",
+      "description": "The Social Network è un film del 2010 diretto da David Fincher. Narra la nascita di Facebook e le battaglie legali che ne seguirono.",
+      "image": "https://example.com/social_network.jpg",
+      "duration": "2h",
+      "rating": 7.7
+    },
+    {
+      "id": 16,
+      "title": "Black Swan",
+      "description": "Il cigno nero (Black Swan) è un film del 2010 diretto da Darren Aronofsky. Una ballerina ossessionata dalla perfezione lotta con la sua sanità mentale mentre si prepara per il ruolo principale in 'Il lago dei cigni'.",
+      "image": "https://example.com/black_swan.jpg",
+      "duration": "1h 48min",
+      "rating": 8
+    },
+    {
+      "id": 17,
+      "title": "The Wolf of Wall Street",
+      "description": "Il lupo di Wall Street (The Wolf of Wall Street) è un film del 2013 diretto da Martin Scorsese e interpretato da Leonardo DiCaprio, Jonah Hill, Margot Robbie e Matthew McConaughey. Il film è basato sulle memorie omonime di Jordan Belfort.",
+      "image": "https://example.com/wolf_of_wall_street.jpg",
+      "duration": "3h",
+      "rating": 8.2
+    },
+    {
+      "id": 18,
+      "title": "Interstellar",
+      "description": "Interstellar è un film del 2014 diretto da Christopher Nolan e interpretato da Matthew McConaughey, Anne Hathaway, Jessica Chastain e Michael Caine. Il film è incentrato sulle vicende di un gruppo di astronauti che cercano una nuova casa per l'umanità in un universo distante e in rapido deterioramento.",
+      "image": "https://example.com/interstellar.jpg",
+      "duration": "2h 49min",
+      "rating": 8.6
+    },
+    {
+      "id": 19,
+      "title": "Get Out",
+      "description": "Scappa - Get Out è un film del 2017 diretto da Jordan Peele. Un giovane afroamericano visita la famiglia della sua fidanzata bianca, scoprendo segreti inquietanti.",
+      "image": "https://example.com/get_out.jpg",
+      "duration": "1h 44min",
+      "rating": 7.7
+    },
+    {
+      "id": 20,
+      "title": "The Shape of Water",
+      "description": "La forma dell'acqua - The Shape of Water è un film del 2017 diretto da Guillermo del Toro. Racconta la storia d'amore tra una donna muta e una creatura anfibia durante la Guerra Fredda.",
+      "image": "https://example.com/shape_of_water.jpg",
+      "duration": "2h 3min",
+      "rating": 7.3
     }
   ],
   "favorites": [
@@ -23,8 +171,13 @@
   "users": [
     {
       "id": 1,
-      "username": "user1",
+      "email": "user1@example.com",
       "password": "password1"
+    },
+    {
+      "id": 2,
+      "email": "email@example.com",
+      "password": "hashed_password"
     }
   ]
 }

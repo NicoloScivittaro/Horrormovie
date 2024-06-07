@@ -1,0 +1,18 @@
+<div class="container my-5">
+  <h1 class="mb-4">I Tuoi Preferiti</h1>
+  <div *ngIf="favs.length === 0" class="alert alert-warning" role="alert">
+      Non hai ancora aggiunto nessun film ai preferiti.
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" *ngFor="let fav of favs">
+          <div class="card h-100">
+              <img src="{{ fav.image }}" class="card-img-top" alt="{{ fav.title }}">
+              <div class="card-body">
+                  <h5 class="card-title">{{ fav.title }}</h5>
+                  <p class="card-text">{{ fav.description }}</p>
+                  <button class="btn btn-danger" (click)="removeFromFav(fav.id)">Rimuovi dai Preferiti</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

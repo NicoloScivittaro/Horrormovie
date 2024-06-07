@@ -1,0 +1,25 @@
+<div class="container my-5">
+  <h1 class="display-4 mb-4">Film Popolari</h1>
+  <div *ngIf="movies.length === 0" class="alert alert-warning" role="alert">
+      Nessun film trovato.
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col" *ngFor="let movie of movies">
+          <div class="card h-100">
+              <img src="{{ movie.image }}" class="card-img-top" alt="{{ movie.title }}">
+              <div class="card-body">
+                  <h5 class="card-title">{{ movie.title }}</h5>
+                  <p class="card-text">{{ movie.description }}</p>
+                  <p class="card-text"><small class="text-muted">{{ movie.duration }}</small></p>
+                  <p class="card-text fw-bold">Rating: {{ movie.rating }}</p>
+                  <div class="d-grid gap-2">
+                      <button class="btn btn-info" (click)="addToFavs(movie)" [disabled]="isFav(movie.id)">
+                          Aggiungi ai Preferiti
+                      </button>
+                      <button class="btn btn-danger" (click)="deleteMovie(movie.id)">Elimina</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
