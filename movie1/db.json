@@ -1,0 +1,30 @@
+{
+  "movies-popular": [
+    {
+      "id": 1,
+      "title": "Movie 1",
+      "poster": "url_to_poster_1",
+      "photo": "url_to_photo_1"
+    },
+    {
+      "id": 2,
+      "title": "Movie 2",
+      "poster": "url_to_poster_2",
+      "photo": "url_to_photo_2"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "userId": 1,
+      "movieId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "password1"
+    }
+  ]
+}

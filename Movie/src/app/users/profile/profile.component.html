@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div *ngFor="let user of users">
+        <h2>{{ user.username }}</h2>
+        <ul class="list-group">
+          <li class="list-group-item" *ngFor="let favorite of favoritesMap[user.id]">
+            {{ favorite.title }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
