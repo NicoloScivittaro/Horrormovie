@@ -1,30 +1,30 @@
-<div class="container my-5">
+<div class="container my-5 text-light">
   <div class="mb-4">
-    <h2 class="display-5 fw-bold">Aggiungi Nuovi Film</h2>
+    <h2 class="display-5 fw-bold inferno-title">Aggiungi Incubo</h2>
   </div>
   <div class="row">
-    <div class="col-md-6">
-      <div class="mb-3">
-        <label for="title" class="form-label">Titolo</label>
-        <input type="text" class="form-control" id="title" [(ngModel)]="newMovie.title" placeholder="Inserisci il titolo">
+    <div class="col-md-12">
+      <div class="mb-12">
+        <label for="title" class="form-label inferno-label">Titolo</label>
+        <input type="text" class="form-control inferno-input" id="title" [(ngModel)]="newMovie.title" placeholder="Inserisci il titolo">
       </div>
-      <div class="mb-3">
-        <label for="duration" class="form-label">Durata</label>
-        <input type="text" class="form-control" id="duration" [(ngModel)]="newMovie.duration" placeholder="Inserisci la durata">
+      <div class="mb-12">
+        <label for="duration" class="form-label inferno-label">Durata</label>
+        <input type="text" class="form-control inferno-input" id="duration" [(ngModel)]="newMovie.duration" placeholder="Inserisci la durata">
       </div>
-      <div class="mb-3">
-        <label for="rating" class="form-label">Rating</label>
-        <input type="number" class="form-control" id="rating" [(ngModel)]="newMovie.rating" placeholder="Inserisci il rating">
+      <div class="mb-12">
+        <label for="rating" class="form-label inferno-label">Rating</label>
+        <input type="number" class="form-control inferno-input" id="rating" [(ngModel)]="newMovie.rating" placeholder="Inserisci il rating">
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-12">
       <div class="mb-3">
-        <label for="description" class="form-label">Descrizione</label>
-        <textarea class="form-control" id="description" rows="5" [(ngModel)]="newMovie.description" placeholder="Inserisci la descrizione"></textarea>
+        <label for="description" class="form-label inferno-label">Descrizione</label>
+        <textarea class="form-control inferno-textarea" id="description" rows="5" [(ngModel)]="newMovie.description" placeholder="Inserisci la descrizione"></textarea>
       </div>
     </div>
   </div>
   <div class="mb-3">
-    <button class="btn btn-primary" (click)="addMovie()">Aggiungi Film</button>
+    <button class="btn btn-primary inferno-btn" (click)="addMovie()">Aggiungi Film</button>
   </div>
 </div>

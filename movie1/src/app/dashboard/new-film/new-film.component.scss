@@ -1,0 +1,43 @@
+$inferno-bg-color: #000000;
+$inferno-text-color: #ffffff;
+$inferno-primary-color: #ff3300;
+$inferno-secondary-color: #ff6600;
+$inferno-accent-color: #ff9966;
+$inferno-btn-border-color: #660000;
+
+// Global styles
+body {
+  background-color: $inferno-bg-color;
+  color: $inferno-text-color;
+}
+
+// Specific styles
+.inferno-title {
+  color: $inferno-primary-color;
+}
+
+.inferno-label {
+  color: $inferno-secondary-color;
+}
+
+.inferno-input {
+  background-color: transparent;
+  border-color: $inferno-btn-border-color;
+  color: $inferno-text-color;
+}
+
+.inferno-textarea {
+  background-color: transparent;
+  border-color: $inferno-btn-border-color;
+  color: $inferno-text-color;
+}
+
+.inferno-btn {
+  background-color: $inferno-primary-color;
+  border-color: $inferno-btn-border-color;
+  color: $inferno-text-color;
+
+  &:hover {
+    background-color: darken($inferno-primary-color, 10%);
+  }
+}

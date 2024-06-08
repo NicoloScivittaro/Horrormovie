@@ -1,27 +1,27 @@
-<div class="container my-5">
-  <h2 class="display-5 mb-4">Impostazioni Account</h2>
+<div class="container my-5 text-light">
+  <h2 class="display-5 mb-4 inferno-title">Impostazioni Account</h2>
   <div class="row">
     <div class="col-md-4">
       <div class="list-group account-settings-links">
-        <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">Generale</a>
-        <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-change-password">Cambia Password</a>
-        <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-info">Informazioni</a>
-        <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-social-links">Social</a>
-        <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-connections">Connessioni</a>
-        <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-notifications">Notifiche</a>
+        <a class="list-group-item list-group-item-action active inferno-link" data-toggle="list" href="#account-general">Generale</a>
+        <a class="list-group-item list-group-item-action inferno-link" data-toggle="list" href="#account-change-password">Cambia Password</a>
+        <a class="list-group-item list-group-item-action inferno-link" data-toggle="list" href="#account-info">Informazioni</a>
+        <a class="list-group-item list-group-item-action inferno-link" data-toggle="list" href="#account-social-links">Social</a>
+        <a class="list-group-item list-group-item-action inferno-link" data-toggle="list" href="#account-connections">Connessioni</a>
+        <a class="list-group-item list-group-item-action inferno-link" data-toggle="list" href="#account-notifications">Notifiche</a>
       </div>
     </div>
     <div class="col-md-8">
       <div class="tab-content">
         <div class="tab-pane fade active show" id="account-general">
-          <div class="card-body">
+          <div class="card-body inferno-card-body">
             <div class="mb-3">
               <img src="assets/img/vetrina2.jpg" alt="Profile" class="d-block img-thumbnail mb-3">
-              <label class="btn btn-outline-primary">
+              <label class="btn btn-outline-primary inferno-btn-outline">
                 Carica nuova foto
                 <input type="file" class="account-settings-fileinput">
               </label>
-              <button type="button" class="btn btn-outline-secondary">Reset</button>
+              <button type="button" class="btn btn-outline-secondary inferno-btn-outline">Reset</button>
               <small class="d-block text-muted mt-2">Dimensione massima: 800K</small>
             </div>
             <div class="form-group">
@@ -29,12 +29,10 @@
               <input type="text" class="form-control mb-3" value="{{user?.name}}">
               <label class="form-label">Email</label>
               <input type="text" class="form-control mb-3" value="{{user?.email}}">
-              <div class="alert alert-warning mt-3">
+              <div class="alert alert-warning mt-3 inferno-alert">
                 La tua email non è stata confermata. Controlla la tua casella di posta.
-                <a href="javascript:void(0)">Invia nuovamente la conferma</a>
+                <a href="javascript:void(0)" class="inferno-link">Invia nuovamente la conferma</a>
               </div>
-              <label class="form-label">Azienda</label>
-              <input type="text" class="form-control" value="Company Ltd.">
             </div>
           </div>
         </div>
@@ -43,22 +41,4 @@
   </div>
 </div>
 
-<div class="container my-5">
-  <h2 class="display-5 mb-4">Lista Utenti</h2>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Nome</th>
-        <th>Email</th>
-        <th>Abbonamento</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let u of users">
-        <td>{{ u.name }}</td>
-        <td>{{ u.email}}</td>
-        <td>Scrauso</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<div class="container my-5 text-light">

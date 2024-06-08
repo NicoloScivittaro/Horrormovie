@@ -3,8 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { GuestGuard } from './auth/guest.guard';
 import { AuthGuard } from './auth/auth.guard';
 import { HomeComponent } from './home/home.component';
-import { FavouritesComponent } from './dashboard/favourites/favourites.component';
-import { MoviesComponent } from './dashboard/movies/movies.component';
 
 const routes: Routes = [
   { path: '',

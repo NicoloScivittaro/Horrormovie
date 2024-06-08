@@ -24,7 +24,7 @@ export class NewFilmComponent implements OnInit {
     this.loadMovies();
   }
 
-  loadMovies(): void { // Specificato il tipo di ritorno della funzione
+  loadMovies(): void {
     this.moviesSvc.getAllMovies();
     this.moviesSvc.movies$.subscribe(movies => {
       this.movies = movies;

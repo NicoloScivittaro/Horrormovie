@@ -178,6 +178,12 @@
       "id": 2,
       "email": "email@example.com",
       "password": "hashed_password"
+    },
+    {
+      "email": "user@example.com",
+      "password": "$2a$10$ujKHisfZu6Ygnfe8FK7dO.xvAPOqWlxB7NpRjyWcMWSFYKGYGZLWy",
+      "name": "nicolò",
+      "id": 3
     }
   ]
 }

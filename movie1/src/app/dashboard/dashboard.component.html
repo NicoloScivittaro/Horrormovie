@@ -1,45 +1,45 @@
-<div class="container">
+<div class="container text-light">
   <h1>Benvenuto, {{user?.name}}!</h1>
 </div>
 
 <div class="container col-xxl-8 px-4">
   <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-          <img src="assets/img/vetrina2.jpg" class="d-block mx-lg-auto img-fluid" alt="Immagine di benvenuto" loading="lazy">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="assets/img/images.jpg" class="d-block mx-lg-auto img-fluid "id="image" alt="Immagine di benvenuto" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold lh-1 mb-3 inferno-title">Esplora una vasta selezione di film</h1>
+      <h3 class="inferno-subtitle">Scopri i nostri titoli più recenti</h3>
+      <p class="lead inferno-lead">Benvenuti nel cuore dell INFERNO, dove troverai una collezione eccezionale di film epici. Sfoglia la nostra selezione e preparati a un'esperienza cinematografica indimenticabile.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" routerLink="/dashboard/movies" class="btn btn-primary btn-lg px-4 me-md-2 inferno-btn">Esplora i Film</button>
+        <button type="button" routerLink="/dashboard/favourites" class="btn btn-outline-secondary btn-lg px-4 inferno-btn-outline">Preferiti</button>
       </div>
-      <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Esplora una vasta selezione di film</h1>
-          <h3>Scopri i nostri titoli più recenti</h3>
-          <p class="lead">Benvenuti nel cuore di "Film Mania", dove troverai una collezione eccezionale di film epici. Sfoglia la nostra selezione e preparati a un'esperienza cinematografica indimenticabile.</p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" routerLink="/dashboard/movies" class="btn btn-primary btn-lg px-4 me-md-2">Esplora i Film</button>
-              <button type="button" routerLink="/dashboard/favourites" class="btn btn-outline-secondary btn-lg px-4">Preferiti</button>
-          </div>
-      </div>
+    </div>
   </div>
 </div>
 
 <main>
-  <div class="container my-5">
-      <span class="display-5">Scopri i Titoli più Popolari del Momento</span><small>(prepara le pop corn)</small>
-      <div class="row my-1">
-          <div class="col-6 my-2" *ngFor="let m of movies.slice(0,4)">
-              <div class="card mb-3 h-100">
-                  <div class="row g-0">
-                      <div class="col-md-4">
-                          <img src="https://picsum.photos/200" class="img-fluid rounded-start" alt="Immagine del film">
-                      </div>
-                      <div class="col-md-8">
-                          <div class="card-body">
-                              <h5 class="card-title">{{m.title}}</h5>
-                              <p class="card-text">{{m.description}}</p>
-                              <p class="card-text">Durata: {{m.duration}}</p>
-                              <p class="card-text"><small class="text-body-secondary">Valutazione: {{m.rating}}</small></p>
-                          </div>
-                      </div>
-                  </div>
+  <div class="container my-5 text-light">
+    <span class="display-5 inferno-main-title">Scopri i Titoli più SPAVENTOSI del Momento</span><small class="inferno-small">(prepara le LACRIME)</small>
+    <div class="row my-1">
+      <div class="col-6 my-2" *ngFor="let m of movies.slice(0,4)">
+        <div class="card mb-3 h-100 inferno-card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://picsum.photos/200" class="img-fluid rounded-start" alt="Immagine del film">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title inferno-card-title">{{m.title}}</h5>
+                <p class="card-text inferno-card-text">{{m.description}}</p>
+                <p class="card-text inferno-card-text">Durata: {{m.duration}}</p>
+                <p class="card-text" id="colore"><small class="text-body-secondary inferno-small-text ">Valutazione: {{m.rating}}</small></p>
               </div>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
   </div>
 </main>

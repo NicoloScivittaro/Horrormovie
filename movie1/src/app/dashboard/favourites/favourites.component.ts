@@ -5,21 +5,32 @@ import { iMovies } from '../../interfaces/movies';
 @Component({
   selector: 'app-favourites',
   templateUrl: './favourites.component.html',
-  styleUrls: ['./favourites.component.scss'] // Corretto "styleUrl" in "styleUrls"
+  styleUrls: ['./favourites.component.scss']
 })
-export class FavouritesComponent implements OnInit { // Implementato OnInit
+export class FavouritesComponent implements OnInit {
 
-  favs: iMovies[] = []; // Inizializzato favs come array vuoto per evitare errori di "undefined"
+  favs: iMovies[] = [];
 
   constructor(public prdSrv: MoviesService) {}
 
   ngOnInit(): void {
+    this.loadFavourites();
     this.prdSrv.favList.subscribe((favs: iMovies[]) => {
       this.favs = favs;
+      this.saveFavouritesToServer();
     });
   }
 
-  removeFromFav(id: number): void { // Specificato il tipo di ritorno della funzione
+  removeFromFav(id: number): void {
     this.prdSrv.removeFromFav(id);
+    this.saveFavouritesToServer();
+  }
+
+  private saveFavouritesToServer(): void {
+
+  }
+
+  private loadFavourites(): void {
+
   }
 }

@@ -1,0 +1,42 @@
+$inferno-bg-color: #000000;
+$inferno-text-color: #ffffff;
+$inferno-primary-color: #ff3300;
+$inferno-secondary-color: #ff6600;
+$inferno-accent-color: #ff9966;
+$inferno-btn-border-color: #660000;
+
+// Global styles
+body {
+  background-color: $inferno-bg-color;
+  color: $inferno-text-color;
+}
+
+// Titoli
+h1 {
+  color: $inferno-primary-color;
+}
+
+// Avvisi
+.alert {
+  background-color: $inferno-accent-color;
+  border-color: $inferno-primary-color;
+  color: $inferno-text-color;
+}
+
+// Card
+.card {
+  background-color: $inferno-secondary-color;
+  border-color: $inferno-primary-color;
+  color: $inferno-text-color;
+}
+
+// Pulsanti
+.btn {
+  background-color: $inferno-primary-color;
+  border-color: $inferno-btn-border-color;
+  color: $inferno-text-color;
+
+  &:hover {
+    background-color: darken($inferno-primary-color, 10%);
+  }
+}
