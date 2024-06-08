@@ -2,163 +2,183 @@
   "movies-popular": [
     {
       "id": 1,
-      "title": "Parasite",
-      "description": "Parasite è un film del 2019 diretto da Bong Joon-ho. Il film racconta la storia di una famiglia povera che si infiltra nella vita di una famiglia ricca, con conseguenze imprevedibili.",
-      "image": "https://example.com/parasite.jpg",
-      "duration": "2h 12min",
-      "rating": 8.6
-    },
-    {
-      "id": 2,
-      "title": "Whiplash",
-      "description": "Whiplash è un film del 2014 diretto da Damien Chazelle. Il film segue la storia di un giovane batterista jazz e il suo spietato insegnante.",
-      "image": "https://example.com/whiplash.jpg",
-      "duration": "1h 47min",
-      "rating": 8.5
-    },
-    {
-      "id": 3,
-      "title": "Mad Max: Fury Road",
-      "description": "Mad Max: Fury Road è un film del 2015 diretto da George Miller. Ambientato in un futuro post-apocalittico, segue le avventure di Max e Furiosa in una fuga spettacolare.",
-      "image": "https://example.com/mad_max.jpg",
-      "duration": "2h",
-      "rating": 8.1
-    },
-    {
-      "id": 4,
-      "title": "La La Land",
-      "description": "La La Land è un film del 2016 diretto da Damien Chazelle. Una commedia musicale che racconta la storia d'amore tra un'aspirante attrice e un musicista jazz.",
-      "image": "https://example.com/la_la_land.jpg",
-      "duration": "2h 8min",
-      "rating": 8
-    },
-    {
-      "id": 5,
-      "title": "Joker",
-      "description": "Joker è un film del 2019 diretto da Todd Phillips. Esplora la storia delle origini del celebre villain di Gotham City, interpretato da Joaquin Phoenix.",
-      "image": "https://example.com/joker.jpg",
-      "duration": "2h 2min",
-      "rating": 8.4
-    },
-    {
-      "id": 6,
-      "title": "1917",
-      "description": "1917 è un film del 2019 diretto da Sam Mendes. Ambientato durante la Prima Guerra Mondiale, segue due giovani soldati britannici in una missione per salvare un battaglione.",
-      "image": "https://example.com/1917.jpg",
-      "duration": "1h 59min",
-      "rating": 8.3
-    },
-    {
-      "id": 7,
-      "title": "Once Upon a Time in Hollywood",
-      "description": "C'era una volta a... Hollywood è un film del 2019 diretto da Quentin Tarantino. Il film segue un attore televisivo e il suo stuntman mentre navigano l'industria cinematografica degli anni '60.",
-      "image": "https://example.com/once_upon_a_time.jpg",
-      "duration": "2h 41min",
-      "rating": 7.6
-    },
-    {
-      "id": 8,
-      "title": "Blade Runner 2049",
-      "description": "Blade Runner 2049 è un film del 2017 diretto da Denis Villeneuve. Un sequel di Blade Runner che segue un nuovo blade runner alla scoperta di un segreto sepolto da tempo.",
-      "image": "https://example.com/blade_runner.jpg",
-      "duration": "2h 44min",
-      "rating": 8
-    },
-    {
-      "id": 9,
-      "title": "The Grand Budapest Hotel",
-      "description": "Grand Budapest Hotel è un film del 2014 diretto da Wes Anderson. Segue le avventure di un concierge e un giovane impiegato in un hotel di lusso durante la Repubblica di Weimar.",
-      "image": "https://example.com/grand_budapest.jpg",
-      "duration": "1h 39min",
-      "rating": 8.1
-    },
-    {
-      "id": 10,
-      "title": "Django Unchained",
-      "description": "Django Unchained è un film del 2012 diretto da Quentin Tarantino. Un western che racconta la storia di uno schiavo liberato e un cacciatore di taglie che cercano di salvare la moglie del primo.",
-      "image": "https://example.com/django.jpg",
-      "duration": "2h 45min",
-      "rating": 8.4
-    },
-    {
-      "id": 11,
-      "title": "Her",
-      "description": "Her è un film del 2013 diretto da Spike Jonze. La storia di un uomo che sviluppa una relazione romantica con un'intelligenza artificiale.",
-      "image": "https://example.com/her.jpg",
-      "duration": "2h 6min",
-      "rating": 8
-    },
-    {
-      "id": 12,
-      "title": "Gravity",
-      "description": "Gravity è un film del 2013 diretto da Alfonso Cuarón. Racconta la lotta per la sopravvivenza di due astronauti dopo un incidente che li lascia alla deriva nello spazio.",
-      "image": "https://example.com/gravity.jpg",
-      "duration": "1h 31min",
-      "rating": 7.7
-    },
-    {
-      "id": 13,
-      "title": "Inglourious Basterds",
-      "description": "Bastardi senza gloria (Inglourious Basterds) è un film del 2009 diretto da Quentin Tarantino. Il film è ambientato durante la seconda guerra mondiale e racconta una storia di vendetta contro i nazisti.",
-      "image": "https://example.com/inglourious_basterds.jpg",
-      "duration": "2h 33min",
-      "rating": 8.3
-    },
-    {
-      "id": 14,
-      "title": "The Revenant",
-      "description": "Revenant - Redivivo (The Revenant) è un film del 2015 diretto da Alejandro G. Iñárritu. Racconta la storia di un cacciatore di pelli che cerca vendetta contro coloro che lo hanno abbandonato dopo un attacco di un orso.",
-      "image": "https://example.com/revenant.jpg",
-      "duration": "2h 36min",
-      "rating": 8
-    },
-    {
-      "id": 15,
-      "title": "The Social Network",
-      "description": "The Social Network è un film del 2010 diretto da David Fincher. Narra la nascita di Facebook e le battaglie legali che ne seguirono.",
-      "image": "https://example.com/social_network.jpg",
-      "duration": "2h",
-      "rating": 7.7
-    },
-    {
-      "id": 16,
-      "title": "Black Swan",
-      "description": "Il cigno nero (Black Swan) è un film del 2010 diretto da Darren Aronofsky. Una ballerina ossessionata dalla perfezione lotta con la sua sanità mentale mentre si prepara per il ruolo principale in 'Il lago dei cigni'.",
-      "image": "https://example.com/black_swan.jpg",
-      "duration": "1h 48min",
-      "rating": 8
-    },
-    {
-      "id": 17,
-      "title": "The Wolf of Wall Street",
-      "description": "Il lupo di Wall Street (The Wolf of Wall Street) è un film del 2013 diretto da Martin Scorsese e interpretato da Leonardo DiCaprio, Jonah Hill, Margot Robbie e Matthew McConaughey. Il film è basato sulle memorie omonime di Jordan Belfort.",
-      "image": "https://example.com/wolf_of_wall_street.jpg",
-      "duration": "3h",
-      "rating": 8.2
-    },
-    {
-      "id": 18,
-      "title": "Interstellar",
-      "description": "Interstellar è un film del 2014 diretto da Christopher Nolan e interpretato da Matthew McConaughey, Anne Hathaway, Jessica Chastain e Michael Caine. Il film è incentrato sulle vicende di un gruppo di astronauti che cercano una nuova casa per l'umanità in un universo distante e in rapido deterioramento.",
-      "image": "https://example.com/interstellar.jpg",
-      "duration": "2h 49min",
-      "rating": 8.6
-    },
-    {
-      "id": 19,
       "title": "Get Out",
       "description": "Scappa - Get Out è un film del 2017 diretto da Jordan Peele. Un giovane afroamericano visita la famiglia della sua fidanzata bianca, scoprendo segreti inquietanti.",
       "image": "https://example.com/get_out.jpg",
       "duration": "1h 44min",
-      "rating": 7.7
+      "rating": 7.7,
+      "favorites": []
+    },
+    {
+      "id": 2,
+      "title": "A Quiet Place",
+      "description": "A Quiet Place è un film del 2018 diretto da John Krasinski. Segue una famiglia che deve vivere in silenzio assoluto per sopravvivere a creature misteriose.",
+      "image": "https://example.com/a_quiet_place.jpg",
+      "duration": "1h 30min",
+      "rating": 7.5,
+      "favorites": []
+    },
+    {
+      "id": 3,
+      "title": "The Conjuring",
+      "description": "The Conjuring - L'evocazione è un film del 2013 diretto da James Wan. Basato su eventi reali, segue due demonologi che indagano su una casa infestata.",
+      "image": "https://example.com/the_conjuring.jpg",
+      "duration": "1h 52min",
+      "rating": 7.5,
+      "favorites": []
+    },
+    {
+      "id": 4,
+      "title": "Hereditary",
+      "description": "Hereditary è un film del 2018 diretto da Ari Aster. Una famiglia viene tormentata da eventi oscuri dopo la morte della nonna.",
+      "image": "https://example.com/hereditary.jpg",
+      "duration": "2h 7min",
+      "rating": 7.3,
+      "favorites": []
+    },
+    {
+      "id": 5,
+      "title": "The Exorcist",
+      "description": "L'esorcista è un film del 1973 diretto da William Friedkin. Un sacerdote esorcista deve affrontare il male quando una giovane ragazza è posseduta dal demonio.",
+      "image": "https://example.com/the_exorcist.jpg",
+      "duration": "2h 2min",
+      "rating": 8,
+      "favorites": []
+    },
+    {
+      "id": 6,
+      "title": "Psycho",
+      "description": "Psycho è un film del 1960 diretto da Alfred Hitchcock. Un segretario in fuga si rifugia in un motel gestito da un giovane disturbato e sua madre dominante.",
+      "image": "https://example.com/psycho.jpg",
+      "duration": "1h 49min",
+      "rating": 8.5,
+      "favorites": []
+    },
+    {
+      "id": 7,
+      "title": "The Shining",
+      "description": "Shining (The Shining) è un film del 1980 diretto da Stanley Kubrick e interpretato da Jack Nicholson e Shelley Duvall. Un uomo assume il ruolo di custode in un hotel isolato con sua moglie e suo figlio, ma l'isolamento li fa precipitare in una spirale di follia.",
+      "image": "https://example.com/the_shining.jpg",
+      "duration": "2h 26min",
+      "rating": 8.4,
+      "favorites": []
+    },
+    {
+      "id": 8,
+      "title": "Halloween",
+      "description": "Halloween - La notte delle streghe è un film del 1978 diretto da John Carpenter. Un serial killer evaso torna nella sua città natale per terrorizzare un gruppo di adolescenti la notte di Halloween.",
+      "image": "https://example.com/halloween.jpg",
+      "duration": "1h 31min",
+      "rating": 7.8,
+      "favorites": []
+    },
+    {
+      "id": 9,
+      "title": "Nightmare on Elm Street",
+      "description": "Nightmare - Dal profondo della notte è un film del 1984 diretto da Wes Craven. Un serial killer che attacca le sue vittime nei loro sogni diventa un'ossessione per un gruppo di adolescenti.",
+      "image": "https://example.com/nightmare_on_elm_street.jpg",
+      "duration": "1h 31min",
+      "rating": 7.5,
+      "favorites": []
+    },
+    {
+      "id": 10,
+      "title": "Friday the 13th",
+      "description": "Venerdì 13 (Friday the 13th) è un film del 1980 diretto da Sean S. Cunningham. Un gruppo di consiglieri adolescenti viene terrorizzato da un assassino in un campo estivo abbandonato.",
+      "image": "https://example.com/friday_the_13th.jpg",
+      "duration": "1h 35min",
+      "rating": 6.5,
+      "favorites": []
+    },
+    {
+      "id": 11,
+      "title": "The Texas Chain Saw Massacre",
+      "description": "Non aprite quella porta (The Texas Chain Saw Massacre) è un film del 1974 diretto da Tobe Hooper. Un gruppo di adolescenti viene catturato e ucciso da una famiglia di cannibali nel Texas rurale.",
+      "image": "https://example.com/texas_chain_saw_massacre.jpg",
+      "duration": "1h 23min",
+      "rating": 7.5,
+      "favorites": []
+    },
+    {
+      "id": 12,
+      "title": "The Ring",
+      "description": "The Ring è un film del 2002 diretto da Gore Verbinski. Un giornalista indaga su una misteriosa videocassetta che sembra uccidere chiunque la guardi entro sette giorni.",
+      "image": "https://example.com/the_ring.jpg",
+      "duration": "1h 55min",
+      "rating": 7.1,
+      "favorites": []
+    },
+    {
+      "id": 13,
+      "title": "Saw",
+      "description": "Saw - L'enigmista (Saw) è un film del 2004 diretto da James Wan. Due uomini si svegliano intrappolati in una stanza con un assassino noto come 'Jigsaw' e devono seguire i suoi enigmi per sopravvivere.",
+      "image": "https://example.com/saw.jpg",
+      "duration": "1h 43min",
+      "rating": 7.6,
+      "favorites": []
+    },
+    {
+      "id": 14,
+      "title": "It",
+      "description": "It è un film del 2017 diretto da Andy Muschietti. Un gruppo di ragazzi si scontra con un clown spaventoso e malefico che si nutre delle loro paure più profonde.",
+      "image": "https://example.com/it.jpg",
+      "duration": "2h 15min",
+      "rating": 7.3,
+      "favorites": []
+    },
+    {
+      "id": 15,
+      "title": "The Babadook",
+      "description": "The Babadook è un film del 2014 diretto da Jennifer Kent. Una madre e suo figlio devono affrontare le conseguenze dell'apparizione di un mostro proveniente da un libro per bambini.",
+      "image": "https://example.com/the_babadook.jpg",
+      "duration": "1h 33min",
+      "rating": 6.8,
+      "favorites": []
+    },
+    {
+      "id": 16,
+      "title": "The Witch",
+      "description": "The Witch è un film del 2015 diretto da Robert Eggers. Una famiglia in una colonia del New England del XVII secolo viene tormentata da eventi soprannaturali dopo il misterioso rapimento di uno dei loro figli.",
+      "image": "https://example.com/the_witch.jpg",
+      "duration": "1h 32min",
+      "rating": 6.9,
+      "favorites": []
+    },
+    {
+      "id": 17,
+      "title": "Insidious",
+      "description": "Insidious è un film del 2010 diretto da James Wan. Una famiglia viene perseguitata da presenze demoniache che vogliono prendere possesso del figlio in coma.",
+      "image": "https://example.com/insidious.jpg",
+      "duration": "1h 43min",
+      "rating": 6.8,
+      "favorites": []
+    },
+    {
+      "id": 18,
+      "title": "The Blair Witch Project",
+      "description": "The Blair Witch Project è un film del 1999 diretto da Daniel Myrick e Eduardo Sánchez. Tre studenti di cinema scompaiono mentre girano un documentario sulle leggende della strega di Blair.",
+      "image": "https://example.com/the_blair_witch_project.jpg",
+      "duration": "1h 21min",
+      "rating": 6.5,
+      "favorites": []
+    },
+    {
+      "id": 19,
+      "title": "The Others",
+      "description": "The Others è un film del 2001 diretto da Alejandro Amenábar. Una madre protegge i suoi figli da presenze spettrali in una casa isolata durante la seconda guerra mondiale.",
+      "image": "https://example.com/the_others.jpg",
+      "duration": "1h 44min",
+      "rating": 7.6,
+      "favorites": []
     },
     {
       "id": 20,
-      "title": "The Shape of Water",
-      "description": "La forma dell'acqua - The Shape of Water è un film del 2017 diretto da Guillermo del Toro. Racconta la storia d'amore tra una donna muta e una creatura anfibia durante la Guerra Fredda.",
-      "image": "https://example.com/shape_of_water.jpg",
-      "duration": "2h 3min",
-      "rating": 7.3
+      "title": "The Sixth Sense",
+      "description": "Sesto senso (The Sixth Sense) è un film del 1999 diretto da M. Night Shyamalan. Un bambino che può comunicare con i morti cerca l'aiuto di uno psicologo per affrontare i suoi poteri.",
+      "image": "https://example.com/the_sixth_sense.jpg",
+      "duration": "1h 47min",
+      "rating": 8.1,
+      "favorites": []
     }
   ],
   "favorites": [

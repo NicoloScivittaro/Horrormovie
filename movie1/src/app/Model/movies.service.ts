@@ -9,12 +9,16 @@ import { environment } from '../../environments/environment.development';
 })
 export class MoviesService {
 
-  fav: iMovies[] = [];
-
-  constructor(private http: HttpClient) { }
-
+  private fav: iMovies[] = [];
+  private favSubject = new BehaviorSubject<iMovies[]>([]);
   private movSubject = new BehaviorSubject<iMovies[]>([]);
+
   movies$ = this.movSubject.asObservable();
+  favList$ = this.favSubject.asObservable();
+
+  constructor(private http: HttpClient) {
+    this.loadFavouritesFromLocalStorage();
+  }
 
   getAllMovies(): void {
     this.http.get<iMovies[]>(environment.moviesUrl).subscribe(movies => {
@@ -34,29 +38,39 @@ export class MoviesService {
     });
   }
 
-  addToFav(prod: iMovies): void {
-    const movie = this.fav.find(mov => mov.id === prod.id);
-    if (!movie) {
-      this.fav.push(prod);
+  addToFav(movie: iMovies): void {
+    if (!this.fav.find(mov => mov.id === movie.id)) {
+      this.fav.push(movie);
+      this.updateFavourites();
     }
   }
 
   removeFromFav(id: number): void {
-    const index = this.fav.findIndex(el => el.id === id);
+    const index = this.fav.findIndex(mov => mov.id === id);
     if (index > -1) {
       this.fav.splice(index, 1);
+      this.updateFavourites();
     }
   }
 
-  get favList(): Observable<iMovies[]> {
-    return new Observable(obs => {
-      obs.next(this.fav);
-      obs.complete();
-    });
+  private loadFavouritesFromLocalStorage(): void {
+    const storedFavourites = localStorage.getItem('favourites');
+    if (storedFavourites) {
+      this.fav = JSON.parse(storedFavourites);
+      this.favSubject.next(this.fav);
+    }
+  }
+
+  private saveFavouritesToLocalStorage(): void {
+    localStorage.setItem('favourites', JSON.stringify(this.fav));
+  }
+
+  private updateFavourites(): void {
+    this.favSubject.next(this.fav);
+    this.saveFavouritesToLocalStorage();
   }
 
   isFav(id: number): boolean {
     return !!this.fav.find(prd => prd.id === id);
   }
-
 }

@@ -14,23 +14,12 @@ export class FavouritesComponent implements OnInit {
   constructor(public prdSrv: MoviesService) {}
 
   ngOnInit(): void {
-    this.loadFavourites();
-    this.prdSrv.favList.subscribe((favs: iMovies[]) => {
+    this.prdSrv.favList$.subscribe((favs: iMovies[]) => {
       this.favs = favs;
-      this.saveFavouritesToServer();
     });
   }
 
   removeFromFav(id: number): void {
     this.prdSrv.removeFromFav(id);
-    this.saveFavouritesToServer();
-  }
-
-  private saveFavouritesToServer(): void {
-
-  }
-
-  private loadFavourites(): void {
-
   }
 }
